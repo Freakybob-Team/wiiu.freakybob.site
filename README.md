@@ -14,3 +14,7 @@ This port was made with these languages :3
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
 Some screenshots of the website :3
+
+<img src="Snapshots/Screenshot3DS.png">
+<img src="Snapshots/Screenshot3DS1.png">
+<img src="Snapshots/Screenshot3DS (1).png">
