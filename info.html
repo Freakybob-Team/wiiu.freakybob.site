@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Info page :3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A place for Freakybob.">
+    <meta content="Info Page :3" property="og:title" />
+    <meta content="Infromation about freakybob.site!" property="og:description" />
+    <meta content="https://freakybob.site/info" property="og:url" />
+    <meta content="https://raw.githubusercontent.com/Freakybob-Team/Freakybob.site/main/images/Freaky_Bob_info.png" property="og:image" />
+    <meta content="#006b79" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/png" href="images/Freaky_Bob_info.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(5, 105, 105);
+            font-family: "Noto Sans", sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(217, 224, 16);
+        }
+        p {
+            text-align: center;
+            color: rgb(206, 190, 190);
+        }
+        h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #dbde06;
+        }
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            color: #dbde06;
+            margin-top: -50px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-container button {
+            background: none;
+            border: none;
+            color: #e7d915;
+            margin: 0 15px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 2px solid #c107b5;
+            transition: color 0.7s, background-color 0.7s;
+        }
+        .button-container button:hover {
+            color: #0f000f;
+            background-color: #f3ef14;
+            transform: scale(1.1);
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 40px;
+        }
+        #freakybob-orgin, #freakybob-found {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        #freakybob-found {
+            width: 200px;
+        }
+        #bought-freakybob {
+            width: 200px;
+        }
+        #para1, #para2, #para3 {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #bede09;
+        }
+        #para4 {
+            color: rgb(2, 254, 250);
+            font-size: 20px;
+        }
+        .modal {
+            display: none; 
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border: 5px solid white;
+            border-radius: 10px;
+        }
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 5%;
+            }
+            #freakybob-orgin, #freakybob-found {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+            #bought-freakybob {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        #para1, #para2, #para3 {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #bede09;
+        }
+        #para4 {
+            color: rgb(2, 254, 250);
+            font-size: 20px;
+        }
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            color: #dbde06;
+            margin-top: 90px;
+        }
+            } 
+        img {
+            width: 200px; /* patch 1 for the 3ds */
+        }  
+        .image-container {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <strong><h1>Welcome to Freakybob.site</h1></strong>
+    <div class="button-container">
+        <a href="index.html">
+            <button>Go back to main website :3</button>
+        </a>
+    </div>
+    <strong><p>Since you're here, you probably want to know what this is about :3</p></strong>
+    <h2>freakybob.site is a website that was created by 5quirrel and wish13yt. This all started from Wish mentioning a "freakybob" domain. Everyone was looking at domains until Squirrel found a domain on a domain website. The domain was "freakybob.site" for $4.00. Squirrel bought it almost instantly starting the well deserved birth of freakybob.site!</h2>
+
+    <div class="content-wrapper">
+        <div class="image-container">
+            <img src="images/freakyboborigin.png" id="freakybob-orgin" alt="freakybob origin">
+            <strong><p id="para1">A screenshot of Wish saying "steam gift 50$ - freakybob.com" which inspired Squirrel to buy and create freakybob.site</p></strong>
+            <img src="images/Foundfreakybob.site.png" id="freakybob-found" alt="Found freakybob site">
+            <strong><p id="para2">A screenshot of Squirrel finding the domain "freakybob.site"</p></strong>
+            <img src="images/bought.png" id="bought-freakybob" alt="bought-freakybob">
+            <strong><p id="para3">A screenshot of Squirrel showing that he bought freakybob.site</p></strong>
+        </div>
+
+        <div id="carousel-container">
+            <div id="carousel">
+                <div class="carousel-images" id="image-track">
+                    <img src="Snapshots/Aug 19.png" alt="Image 1">
+                    <img src="Snapshots/Aug 20.png" alt="Image 2">
+                    <img src="Snapshots/Aug 22.png" alt="Image 3">
+                    <img src="Snapshots/Aug 23.png" alt="Image 4">
+                </div>
+            </div>
+        </div>
+    </div>
+<!--I FEEL SO FREAKY JUST LIKE FREAKYBOB!!!-->
+</body>
+</html>
